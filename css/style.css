@@ -9,6 +9,13 @@ body {
   line-height: 1.6;
   background-color: #111111;
   color: #cccccc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 img {
@@ -282,7 +289,7 @@ footer {
 }
 
 .container-contato h2 {
-    color: #333;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -292,7 +299,7 @@ footer {
 }
 
 .formulario-contato {
-    background-color: #ffffff;
+    background-color: #333;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -300,6 +307,7 @@ footer {
 }
 
 .campo {
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -308,7 +316,7 @@ footer {
 .campo label {
     font-weight: bold;
     margin-bottom: 8px;
-    color: #444;
+    color: white;
     font-size: 0.9rem;
 }
 
@@ -355,7 +363,7 @@ footer {
 
 .checkout-container h2 {
     margin-bottom: 30px;
-    color: #333;
+    color: white;
     border-bottom: 2px solid #f4f4f4;
     padding-bottom: 10px;
 }
@@ -380,7 +388,7 @@ footer {
 .tabela-carrinho th {
     padding: 12px;
     border-bottom: 2px solid #ddd;
-    color: #555;
+    color: white;
     font-weight: 700;
 }
 
@@ -425,7 +433,7 @@ footer {
 
 .valor {
     font-weight: 700;
-    color: #333;
+    color: white;
 }
 
 .total-item {
@@ -435,7 +443,7 @@ footer {
 /* Painel Lateral de Resumo */
 .carrinho-resumo {
     flex: 1;
-    background-color: #f9f9f9;
+    background-color: white;
     padding: 25px;
     border-radius: 8px;
     border: 1px solid #eee;
