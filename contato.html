@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <title>Contato &mdash; Discos &amp; Vinil</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo-grupo">
+      <div class="disco-vinil"></div>
+      <a href="index.html" class="logo">Discos &amp; Vinil</a>
+    </div>
+    <a href="carrinho.html" class="header-carrinho">&#128722; Carrinho</a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="categorias.html">Categorias</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="carrinho.html">Carrinho</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container-contato">
+    <h2>Entre em Contato</h2>
+    <p>Tem alguma dúvida sobre nossos vinis? Envie uma mensagem!</p>
+
+    <form class="formulario-contato">
+        <div class="campo">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+		</div>
+
+        <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+    </form>
+</main>
+
+<footer>
+  <p>&copy; 2026 Discos &amp; Vinil &mdash; loja de mentirinha</p>
+</footer>
+
+</body>
+</html>

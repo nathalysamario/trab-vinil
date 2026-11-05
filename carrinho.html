@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<title>Carrinho de Compras - DISCOS &amp; VINIL</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="sticky">
+	<div class="header-top">
+		<div class="logo-grupo">
+			<div class="disco-vinil"></div>
+			<a href="index.html" class="logo">Discos &amp; Vinil</a>
+		</div>
+			<a href="carrinho.html" class="header-carrinho">🛒 Carrinho</a>
+	</div>
+	<nav>
+		<ul>
+		  <li><a href="index.html">Início</a></li>
+		  <li><a href="categorias.html">Categorias</a></li>
+		  <li><a href="contato.html">Contato</a></li>
+		  <li><a href="carrinho.html">Carrinho</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main class="checkout-container">
+	<h2>Carrinho de Compras</h2>
+
+	<div class="checkout-wrapper">
+
+    <section class="carrinho-itens">
+      <table class="tabela-carrinho">
+        <tr>
+			<th>Produto</th>
+            <th>Qtd</th>
+            <th>Unitário</th>
+			<th>Total</th>
+		</tr>
+
+        <tr>
+			<td>
+				<div class="item-info">
+					<img src="img/vinil5.jpg" alt="ABBA - Lay All Your Love on Me" class="item-img-mini">
+                <div>
+					<h4>ABBA</h4>
+					<p>Lay all your love on me</p>
+					</div>
+				</div>
+            </td>
+            <td>
+				<input type="number" value="1" min="1" class="qtd-input">
+            </td>
+            <td class="valor">R$ 179,90</td>
+            <td class="valor total-item">R$ 179,90</td>
+		</tr>
+
+		<tr>
+            <td>
+				<div class="item-info">
+                <img src="img/vinil6.jpg" alt="DAFTPUNK - Randon Access Memories" class="item-img-mini">
+					<div>
+						<h4>DAFTPUNK</h4>
+						<p>Randon Access Memories</p>
+					</div>
+				</div>
+            </td>
+            <td>
+				<input type="number" value="2" min="1" class="qtd-input">
+            </td>
+            <td class="valor">R$ 199,90</td>
+			<td class="valor total-item">R$ 399,80</td>
+        </tr>
+      </table>
+    </section>
+
+    <aside class="carrinho-resumo">
+		<h3>Resumo do Pedido</h3>
+		<div class="resumo-linha">
+			<span>Subtotal:</span>
+			<span>R$ 529,70</span>
+		</div>
+		<div class="resumo-linha">
+			<span>Frete:</span>
+			<span class="frete-gratis">Grátis</span>
+		</div>
+			<div class="resumo-linha total-geral">
+				<span>Total:</span>
+				<span>R$ 529,70</span>
+		</div>
+		<button class="btn-finalizar">Finalizar Compra</button>
+		<a href="index.html" class="btn-continuar">Continuar Comprando</a>
+		</aside>
+	</div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Discos &amp; Vinil &mdash; loja de mentirinha</p>
+</footer>
+
+</body>
+</html>
