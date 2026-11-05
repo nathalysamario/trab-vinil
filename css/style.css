@@ -414,7 +414,7 @@ footer {
     color: #fff;
 }
 
-/* Painel Lateral de Resumo */
+/* painel lateral de resumo */
 .carrinho-resumo {
     flex: 1;
     background-color: white;
@@ -559,7 +559,7 @@ footer {
         width: 100%;
     }
 
-    /* Transforma a tabela em blocos empilhados para telas pequenas */
+    
     .tabela-carrinho thead {
         display: none;
     }
@@ -578,7 +578,7 @@ footer {
         border: none;
     }
 
-    /* Adiciona etiquetas dinâmicas simulando os cabeçalhos ocultos */
+    /* colocando no css direto pra ficar bonito responsivamente */
     .tabela-carrinho td:nth-of-type(2)::before { content: "Qtd:"; font-weight: bold; }
     .tabela-carrinho td:nth-of-type(3)::before { content: "Unitário:"; font-weight: bold; }
     .tabela-carrinho td:nth-of-type(4)::before { content: "Total:"; font-weight: bold; }
